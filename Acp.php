@@ -9,7 +9,6 @@ class Acp extends MY_Controller
 {
 
   public function index() {
-    $this->pageHeader = 'Annual Changes to Pub File';
     $this->data['content'] = "Acp_view";
     $current_link = array('Annual Changes to Pub File', $this->config->item('base_url') . $this->config->item('index_page') . '/Acp');
     $this->breadcrumbs[] = $current_link;
