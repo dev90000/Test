@@ -15,8 +15,8 @@ class Additional_priorities_table extends MY_Controller
     $this->load->view('outline', $this->data);
   }
 
-  public function get_data() {
-    $tree = $this->GetUITree(APT_SCREEN_ID, MODEL_TYPE_NORM);
-    echo json_encode($tree);
-  }
-}
+//   public function get_data() {
+//     $tree = $this->GetUITree(APT_SCREEN_ID, MODEL_TYPE_NORM);
+//     echo json_encode($tree);
+//   }
+// }
