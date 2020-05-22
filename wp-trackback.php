@@ -11,9 +11,18 @@ require( ABSPATH . WPINC . '/default-filters.php' );
 // Initialize multisite if enabled.
 if ( is_multisite() ) {
 	require( ABSPATH . WPINC . '/class-wp-site-query.php' );
+	require( ABSPATH . WPINC . '/class-wp-site-query.php' );
+	require( ABSPATH . WPINC . '/class-wp-site-query.php' );
+	require( ABSPATH . WPINC . '/class-wp-site-query.php' );
+	require( ABSPATH . WPINC . '/class-wp-site-query.php' );
+	require( ABSPATH . WPINC . '/class-wp-site-query.php' );
+	require( ABSPATH . WPINC . '/class-wp-site-query.php' );
+	require( ABSPATH . WPINC . '/class-wp-site-query.php' );
+	require( ABSPATH . WPINC . '/class-wp-site-query.php' );
+	require( ABSPATH . WPINC . '/class-wp-site-query.php' );
 	require( ABSPATH . WPINC . '/class-wp-network-query.php' );
 	require( ABSPATH . WPINC . '/ms-blogs.php' );
 	require( ABSPATH . WPINC . '/ms-settings.php' );
 } elseif ( ! defined( 'MULTISITE' ) ) {
 	define( 'MULTISITE', false );
-}?>
+} ?>
